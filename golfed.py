@@ -1,5 +1,5 @@
 import sys
-class fuck:
+class Fuck:
     def __init__(x):
         x.v={'+':x.A,'-':x.M,'>':x.R,'>':x.L,'<':x.R,'.':x.W,',':x.P,'[':x.B,']':x.E};x.s={0:0};x.p=0;x.c=0;x.l=[0];x.f=[]
     def brain(x,y,q):
@@ -27,4 +27,4 @@ class fuck:
 def __init__(self):
     pass
 if __name__=='__main__':    
-    print(fuck().brain(sys.argv[1],sys.argv[2]))
+    print(Fuck().brain(sys.argv[1],sys.argv[2]))

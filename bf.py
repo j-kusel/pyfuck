@@ -1,6 +1,6 @@
 import sys
 
-class fuck:
+class Fuck:
     def __init__(self):
         self.command = {'+':self._plus,'-':self._minus,'>':self._right,'>':self._left,'<':self._right,'.':self._out,',':self._read,'[':self._loopleft,']':self._loopright}
         self.stack = {0:0,}
@@ -40,4 +40,4 @@ def __init__():
     pass
 
 if __name__ == '__main__':    
-    print(fuck().brain(sys.argv[1], sys.argv[2]))
+    print(Fuck().brain(sys.argv[1], sys.argv[2]))
